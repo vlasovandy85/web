@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Одежда",
+        "img": "https://placehold.jp/260x185.png",
+        "url": "/cloth"
+    },
+    {
+        "title": "Значки",
+        "img": "https://placehold.jp/260x185.png",
+        "url": "/badges"
+    },
+    {
+        "title": "Канцелярские товары",
+        "img": "https://placehold.jp/260x185.png",
+        "url": "/stationery"
+    },
+    {
+        "title": "Посуда",
+        "img": "https://placehold.jp/260x185.png",
+        "url": "/tableware"
+    },
+    {
+        "title": "Блокноты и ежедневники",
+        "img": "https://placehold.jp/360x257.png",
+        "url": "/notebooks"
+    },
+    {
+        "title": "Сумки и рюкзаки",
+        "img": "https://placehold.jp/360x257.png",
+        "url": "/bags"
+    },
+    {
+        "title": "Книги",
+        "img": "https://placehold.jp/360x257.png",
+        "url": "/books"
+    },
+    {
+        "title": "Разное",
+        "img": "https://placehold.jp/360x257.png",
+        "url": "/miscellaneous"
+    }
+]

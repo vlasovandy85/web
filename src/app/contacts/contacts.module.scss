@@ -1,0 +1,30 @@
+.contacts{
+    height: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    &-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 70%;
+        height: 100%;
+        justify-content: center;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 20px;
+            &-text {
+                font-weight: 400;
+                color: var(--mid-gray);
+            }
+        }
+    }
+}

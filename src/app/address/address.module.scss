@@ -1,0 +1,26 @@
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 60px 0;
+    p {
+        text-align: center;
+    }
+    &-link {
+        color: var(--main-dark-blue);
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+@media (max-width: 1012px) {
+    .address {
+        padding: 40px 10px;
+    }
+}

@@ -1,19 +1,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --main-blue: #00a5e6;
+  --main-dark-blue: #0078be;
+  --light-gray: #f1f3f9;
+  --mid-gray: #8f96a3;
+  --dark-gray: #333333;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 100%;
 }
 
 body {
@@ -33,10 +36,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
